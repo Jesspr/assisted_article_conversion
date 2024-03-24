@@ -1,6 +1,6 @@
 # Google Analytics Data Analysis of Assisted Article Conversion
 
-This project is an analysis of Google Analytics data I did while working with a publishing house, performed using SQL in Google BigQuery. The goal of the analysis is to identify which pages users visited before making a purchase and how these pages contributed to the purchase, i.e., whether they were the last click before the purchase or an assisted click.
+This project is an analysis of Google Analytics data with the purpose of being useful for a publishing house, performed using SQL in Google BigQuery. The goal of the analysis is to identify which pages users visited before making a purchase and how these pages contributed to the purchase, i.e., whether they were the last click before the purchase or an assisted click.
 
 ## Data Source
 The data is sourced from Google Analytics Universal Analytics data for the previous day. Specifically, the transaction ID is used to see which pages the user has visited before, including the last 30 days and the last three pages. The pages that were not articles (e.g., homepage) are then excluded.
